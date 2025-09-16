@@ -35,11 +35,11 @@ O projeto serve como exemplo de **pipeline completo de dados**:
 
 **Projeto_API_1:**
 
-**etl_ibge.py**         # Script de coleta, tratamento e upload dos dados no PostgreSQL
-**api_ibge.py**         # Script que roda a API com FastAPI
-**README.md**           # Descrição do projeto
-**requirements.txt**    # Bibliotecas usadas no projeto
-**.env**                # Credenciais do PostgreSQL (NÃO subir no GitHub)
+**etl_ibge.py**         # Script de coleta, tratamento e upload dos dados no PostgreSQL, 
+**api_ibge.py**         # Script que roda a API com FastAPI, 
+**README.md**           # Descrição do projeto, 
+**requirements.txt**    # Bibliotecas usadas no projeto.
+
 
 
 **Instalação e Execução:**
@@ -58,7 +58,7 @@ PostgreSQL instalado e em execução
 6. Rodar API: `uvicorn API_IBGE:app --reload`
 
    
-**Endpoints Disponíveis:**
+## Endpoints Disponíveis:
 
 **Raiz**
 
